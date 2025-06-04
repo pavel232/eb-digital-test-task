@@ -24,6 +24,7 @@ https://limewire.com/d/hhEvc#nkoQ6jSxy8
 Это iOS-приложение реализует три экрана онбординга с функционалом воспроизведения видео. Реализация использует SwiftUI и AVKit для работы с видео.
 ```
 SwiftUI
+AVKit
 Swift 6
 iOS target 18
 ```
