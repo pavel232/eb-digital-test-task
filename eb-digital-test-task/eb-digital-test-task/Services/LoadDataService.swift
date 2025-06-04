@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+final class LoadDataService: LoadDataServiceProtocol {
+    /// Load videos data
+    func loadData() -> [VideoModel] {
+        /// return mock data
+        return MockData().videosData
+    }
+}

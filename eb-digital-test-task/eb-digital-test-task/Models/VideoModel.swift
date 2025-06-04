@@ -12,11 +12,7 @@ struct VideoModel: Identifiable {
     var name: String
     var fileName: String
     
-    func url() throws -> URL {
-        if let url = Bundle.main.url(forResource: fileName, withExtension: "mp4") {
-            return url
-        } else {
-            throw AppError.loadResourceFailed
-        }
+    func url() -> URL? {
+        return Bundle.main.url(forResource: fileName, withExtension: "mp4")
     }
 }

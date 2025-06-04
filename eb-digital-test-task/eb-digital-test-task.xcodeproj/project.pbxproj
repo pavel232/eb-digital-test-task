@@ -6,6 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E91CFCE72DEE248900844763 /* eb_digital_test_taskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFCE42DEE248900844763 /* eb_digital_test_taskUITests.swift */; };
+		E91CFCE82DEE248900844763 /* eb_digital_test_taskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFCE52DEE248900844763 /* eb_digital_test_taskUITestsLaunchTests.swift */; };
+		E91CFCF32DEE248900844763 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFCF02DEE248900844763 /* ContentView.swift */; };
+		E91CFCF42DEE248900844763 /* TestTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFCF12DEE248900844763 /* TestTaskApp.swift */; };
+		E91CFCF52DEE248900844763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91CFCEA2DEE248900844763 /* Assets.xcassets */; };
+		E91CFCF62DEE248900844763 /* Testdrive_01.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E91CFCEB2DEE248900844763 /* Testdrive_01.mp4 */; };
+		E91CFCF72DEE248900844763 /* Testdrive_02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E91CFCEC2DEE248900844763 /* Testdrive_02.mp4 */; };
+		E91CFCF82DEE248900844763 /* Testdrive_03.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E91CFCED2DEE248900844763 /* Testdrive_03.mp4 */; };
+		E91CFCFB2DEE248900844763 /* eb_digital_test_taskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFCF92DEE248900844763 /* eb_digital_test_taskTests.swift */; };
+		E91CFCFD2DEE252C00844763 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFCFC2DEE252C00844763 /* VideoPlayerView.swift */; };
+		E91CFD012DEE29C800844763 /* VideosScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFD002DEE29C800844763 /* VideosScreenView.swift */; };
+		E91CFD042DEE2AD300844763 /* VideosScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFD032DEE2AD300844763 /* VideosScreenViewModel.swift */; };
+		E91CFD062DEE2BBD00844763 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFD052DEE2BBD00844763 /* MockData.swift */; };
+		E91CFD092DEE2C2000844763 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFD082DEE2C2000844763 /* VideoModel.swift */; };
+		E91CFD0B2DEE2CA600844763 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFD0A2DEE2CA600844763 /* AppError.swift */; };
+		E91CFD0D2DEE2D6900844763 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E91CFD0C2DEE2D6900844763 /* Localizable.xcstrings */; };
+		E91CFD0F2DEE2E4C00844763 /* ErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFD0E2DEE2E4C00844763 /* ErrorAlert.swift */; };
+		E91CFD112DEE2FD700844763 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFD102DEE2FD700844763 /* AppCoordinator.swift */; };
+		E91CFD152DEE301F00844763 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFD142DEE301F00844763 /* CoordinatorProtocol.swift */; };
+		E91CFD182DEE33E900844763 /* LoadDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFD172DEE33E900844763 /* LoadDataService.swift */; };
+		E91CFD1A2DEE342100844763 /* LoadDataServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CFD192DEE342100844763 /* LoadDataServiceProtocol.swift */; };
+		E9310D3A2DEED272004E24F8 /* VideoPlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9310D392DEED272004E24F8 /* VideoPlayerData.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E91CFCBF2DEE23BD00844763 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +52,29 @@
 		E91CFCB12DEE23B800844763 /* eb-digital-test-task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eb-digital-test-task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91CFCBE2DEE23BD00844763 /* eb-digital-test-taskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eb-digital-test-taskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91CFCC82DEE23BD00844763 /* eb-digital-test-taskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eb-digital-test-taskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91CFCE42DEE248900844763 /* eb_digital_test_taskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eb_digital_test_taskUITests.swift; sourceTree = "<group>"; };
+		E91CFCE52DEE248900844763 /* eb_digital_test_taskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eb_digital_test_taskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E91CFCEA2DEE248900844763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E91CFCEB2DEE248900844763 /* Testdrive_01.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Testdrive_01.mp4; sourceTree = "<group>"; };
+		E91CFCEC2DEE248900844763 /* Testdrive_02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Testdrive_02.mp4; sourceTree = "<group>"; };
+		E91CFCED2DEE248900844763 /* Testdrive_03.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Testdrive_03.mp4; sourceTree = "<group>"; };
+		E91CFCF02DEE248900844763 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E91CFCF12DEE248900844763 /* TestTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTaskApp.swift; sourceTree = "<group>"; };
+		E91CFCF92DEE248900844763 /* eb_digital_test_taskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eb_digital_test_taskTests.swift; sourceTree = "<group>"; };
+		E91CFCFC2DEE252C00844763 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		E91CFD002DEE29C800844763 /* VideosScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosScreenView.swift; sourceTree = "<group>"; };
+		E91CFD032DEE2AD300844763 /* VideosScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosScreenViewModel.swift; sourceTree = "<group>"; };
+		E91CFD052DEE2BBD00844763 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		E91CFD082DEE2C2000844763 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		E91CFD0A2DEE2CA600844763 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		E91CFD0C2DEE2D6900844763 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		E91CFD0E2DEE2E4C00844763 /* ErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlert.swift; sourceTree = "<group>"; };
+		E91CFD102DEE2FD700844763 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		E91CFD142DEE301F00844763 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		E91CFD172DEE33E900844763 /* LoadDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataService.swift; sourceTree = "<group>"; };
+		E91CFD192DEE342100844763 /* LoadDataServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataServiceProtocol.swift; sourceTree = "<group>"; };
+		E9310D392DEED272004E24F8 /* VideoPlayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		E91CFCB32DEE23B800844763 /* eb-digital-test-task */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "eb-digital-test-task";
-			sourceTree = "<group>";
-		};
-		E91CFCC12DEE23BD00844763 /* eb-digital-test-taskTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "eb-digital-test-taskTests";
-			sourceTree = "<group>";
-		};
-		E91CFCCB2DEE23BD00844763 /* eb-digital-test-taskUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "eb-digital-test-taskUITests";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E91CFCAE2DEE23B800844763 /* Frameworks */ = {
@@ -75,9 +104,9 @@
 		E91CFCA82DEE23B800844763 = {
 			isa = PBXGroup;
 			children = (
-				E91CFCB32DEE23B800844763 /* eb-digital-test-task */,
-				E91CFCC12DEE23BD00844763 /* eb-digital-test-taskTests */,
-				E91CFCCB2DEE23BD00844763 /* eb-digital-test-taskUITests */,
+				E91CFCF22DEE248900844763 /* eb-digital-test-task */,
+				E91CFCFA2DEE248900844763 /* eb-digital-test-taskTests */,
+				E91CFCE62DEE248900844763 /* eb-digital-test-taskUITests */,
 				E91CFCB22DEE23B800844763 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +119,113 @@
 				E91CFCC82DEE23BD00844763 /* eb-digital-test-taskUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E91CFCE62DEE248900844763 /* eb-digital-test-taskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E91CFCE42DEE248900844763 /* eb_digital_test_taskUITests.swift */,
+				E91CFCE52DEE248900844763 /* eb_digital_test_taskUITestsLaunchTests.swift */,
+			);
+			path = "eb-digital-test-taskUITests";
+			sourceTree = "<group>";
+		};
+		E91CFCE92DEE248900844763 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				E91CFCFC2DEE252C00844763 /* VideoPlayerView.swift */,
+				E91CFD0E2DEE2E4C00844763 /* ErrorAlert.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		E91CFCEE2DEE248900844763 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				E91CFCEA2DEE248900844763 /* Assets.xcassets */,
+				E91CFCEB2DEE248900844763 /* Testdrive_01.mp4 */,
+				E91CFCEC2DEE248900844763 /* Testdrive_02.mp4 */,
+				E91CFCED2DEE248900844763 /* Testdrive_03.mp4 */,
+				E91CFD0C2DEE2D6900844763 /* Localizable.xcstrings */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		E91CFCF22DEE248900844763 /* eb-digital-test-task */ = {
+			isa = PBXGroup;
+			children = (
+				E91CFCF12DEE248900844763 /* TestTaskApp.swift */,
+				E91CFCF02DEE248900844763 /* ContentView.swift */,
+				E91CFD052DEE2BBD00844763 /* MockData.swift */,
+				E91CFCEE2DEE248900844763 /* Resouces */,
+				E91CFD122DEE2FE400844763 /* Coordinator */,
+				E91CFD072DEE2BF000844763 /* Models */,
+				E91CFD132DEE300900844763 /* Protocols */,
+				E91CFD162DEE338700844763 /* Services */,
+				E91CFCE92DEE248900844763 /* UIComponents */,
+				E91CFCFF2DEE29AF00844763 /* Screens */,
+			);
+			path = "eb-digital-test-task";
+			sourceTree = "<group>";
+		};
+		E91CFCFA2DEE248900844763 /* eb-digital-test-taskTests */ = {
+			isa = PBXGroup;
+			children = (
+				E91CFCF92DEE248900844763 /* eb_digital_test_taskTests.swift */,
+			);
+			path = "eb-digital-test-taskTests";
+			sourceTree = "<group>";
+		};
+		E91CFCFF2DEE29AF00844763 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E91CFD022DEE2AB200844763 /* MainScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E91CFD022DEE2AB200844763 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E91CFD002DEE29C800844763 /* VideosScreenView.swift */,
+				E91CFD032DEE2AD300844763 /* VideosScreenViewModel.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		E91CFD072DEE2BF000844763 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E91CFD0A2DEE2CA600844763 /* AppError.swift */,
+				E91CFD082DEE2C2000844763 /* VideoModel.swift */,
+				E9310D392DEED272004E24F8 /* VideoPlayerData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E91CFD122DEE2FE400844763 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E91CFD102DEE2FD700844763 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		E91CFD132DEE300900844763 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E91CFD142DEE301F00844763 /* CoordinatorProtocol.swift */,
+				E91CFD192DEE342100844763 /* LoadDataServiceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E91CFD162DEE338700844763 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E91CFD172DEE33E900844763 /* LoadDataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +242,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				E91CFCB32DEE23B800844763 /* eb-digital-test-task */,
 			);
 			name = "eb-digital-test-task";
 			packageProductDependencies = (
@@ -130,9 +263,6 @@
 			dependencies = (
 				E91CFCC02DEE23BD00844763 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				E91CFCC12DEE23BD00844763 /* eb-digital-test-taskTests */,
-			);
 			name = "eb-digital-test-taskTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +282,6 @@
 			);
 			dependencies = (
 				E91CFCCA2DEE23BD00844763 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E91CFCCB2DEE23BD00844763 /* eb-digital-test-taskUITests */,
 			);
 			name = "eb-digital-test-taskUITests";
 			packageProductDependencies = (
@@ -212,6 +339,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91CFCF52DEE248900844763 /* Assets.xcassets in Resources */,
+				E91CFD0D2DEE2D6900844763 /* Localizable.xcstrings in Resources */,
+				E91CFCF62DEE248900844763 /* Testdrive_01.mp4 in Resources */,
+				E91CFCF72DEE248900844763 /* Testdrive_02.mp4 in Resources */,
+				E91CFCF82DEE248900844763 /* Testdrive_03.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +368,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91CFD1A2DEE342100844763 /* LoadDataServiceProtocol.swift in Sources */,
+				E91CFCF32DEE248900844763 /* ContentView.swift in Sources */,
+				E91CFD062DEE2BBD00844763 /* MockData.swift in Sources */,
+				E91CFD112DEE2FD700844763 /* AppCoordinator.swift in Sources */,
+				E91CFD042DEE2AD300844763 /* VideosScreenViewModel.swift in Sources */,
+				E91CFCF42DEE248900844763 /* TestTaskApp.swift in Sources */,
+				E91CFD0F2DEE2E4C00844763 /* ErrorAlert.swift in Sources */,
+				E91CFD152DEE301F00844763 /* CoordinatorProtocol.swift in Sources */,
+				E91CFD182DEE33E900844763 /* LoadDataService.swift in Sources */,
+				E91CFD0B2DEE2CA600844763 /* AppError.swift in Sources */,
+				E91CFCFD2DEE252C00844763 /* VideoPlayerView.swift in Sources */,
+				E91CFD092DEE2C2000844763 /* VideoModel.swift in Sources */,
+				E9310D3A2DEED272004E24F8 /* VideoPlayerData.swift in Sources */,
+				E91CFD012DEE29C800844763 /* VideosScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91CFCFB2DEE248900844763 /* eb_digital_test_taskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +397,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91CFCE72DEE248900844763 /* eb_digital_test_taskUITests.swift in Sources */,
+				E91CFCE82DEE248900844763 /* eb_digital_test_taskUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +477,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -384,6 +534,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -395,13 +546,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9Y9Z9S973;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -410,7 +562,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.eb-digital-test-task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -422,13 +574,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9Y9Z9S973;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,7 +590,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.eb-digital-test-task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

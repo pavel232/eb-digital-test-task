@@ -9,17 +9,24 @@ import SwiftUI
 import AVKit
 
 struct VideoPlayerView: View {
-    let player: AVPlayer
+    @Environment(VideosScreenViewModel.self) var viewModel
     
-    init() {
-        
-    }
+    var videoData: VideoPlayerData
+    var index: Int
     
     var body: some View {
-        VideoPlayer(player: player)
+        VStack {
+            Text(videoData.model.name)
+                .foregroundStyle(Color.primaryText)
+            
+            VideoPlayer(player: videoData.player)
+            /// можно использовать постраничеую подгрузку и выгрузку видео, чтобы уменьшить нагрузку на память
+//                .onAppear {
+//                    viewModel.loadPlayer(for: index)
+//                }
+//                .onDisappear {
+//                    viewModel.unloadPlayer(for: index)
+//                }
+        }
     }
-}
-
-#Preview {
-    VideoPlayerView()
 }

@@ -5,4 +5,6 @@
 //  Created by Pavel on 2.06.25.
 //
 
-import Foundation
+protocol LoadDataServiceProtocol {
+    func loadData() -> [VideoModel]
+}

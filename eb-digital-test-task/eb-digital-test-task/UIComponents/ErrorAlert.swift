@@ -7,12 +7,18 @@
 
 import SwiftUI
 
-struct ErrorAlert: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+extension View {
+    func errorAlert(error: Binding<Error?>) -> some View {
+        return alert(
+            "Error.AlertTitle",
+            isPresented: .constant(error.wrappedValue != nil),
+            presenting: error,
+            actions: { _ in
+                Button("Common.OK", role: .cancel) { error.wrappedValue = nil }
+            },
+            message: { error in
+                Text(error.wrappedValue?.localizedDescription ?? "Common.Caution")
+            }
+        )
     }
-}
-
-#Preview {
-    ErrorAlert()
 }
